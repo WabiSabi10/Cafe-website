@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Corner Café</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Cozy Corner Café</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero">
+            <h1>Welcome to Cozy Corner</h1>
+            <p>Where every cup tells a story</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="beverages">Beverages</button>
+            <button class="category-btn" data-category="desserts">Desserts</button>
+        </div>
+        <div class="menu-grid" id="beverages">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p class="description">Rich espresso topped with foamy milk</p>
+                <p class="price">$4.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Latte">
+                <h3>Latte</h3>
+                <p class="description">Espresso with steamed milk and light foam</p>
+                <p class="price">$4.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Espresso">
+                <h3>Espresso</h3>
+                <p class="description">Pure, bold coffee in its simplest form</p>
+                <p class="price">$3.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" alt="Americano">
+                <h3>Americano</h3>
+                <p class="description">Espresso diluted with hot water</p>
+                <p class="price">$3.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d" alt="Mocha">
+                <h3>Mocha</h3>
+                <p class="description">Espresso with chocolate and steamed milk</p>
+                <p class="price">$5.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c" alt="Cold Brew">
+                <h3>Cold Brew</h3>
+                <p class="description">Smooth, cold-steeped coffee</p>
+                <p class="price">$4.50</p>
+            </div>
+        </div>
+        <div class="menu-grid hidden" id="desserts">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p class="description">Rich, moist chocolate layer cake</p>
+                <p class="price">$6.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1607478900766-efe13248b125" alt="Cheesecake">
+                <h3>Classic Cheesecake</h3>
+                <p class="description">Creamy New York style cheesecake</p>
+                <p class="price">$7.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1558326567-98ae2405596b" alt="Croissant">
+                <h3>Butter Croissant</h3>
+                <p class="description">Flaky, buttery French pastry</p>
+                <p class="price">$3.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce" alt="Tiramisu">
+                <h3>Tiramisu</h3>
+                <p class="description">Coffee-flavored Italian dessert</p>
+                <p class="price">$6.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812" alt="Cinnamon Roll">
+                <h3>Cinnamon Roll</h3>
+                <p class="description">Warm, gooey cinnamon pastry</p>
+                <p class="price">$4.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75" alt="Macarons">
+                <h3>Macarons</h3>
+                <p class="description">Assorted French almond cookies</p>
+                <p class="price">$2.50/each</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>Our Story</h2>
+            <p>Founded in 2024, Cozy Corner Café is your home away from home. We believe in serving the perfect cup of coffee in a warm, welcoming atmosphere.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Visit Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Details</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Street</p>
+                <p>Cityville, ST 12345</p>
+                <p><i class="fas fa-phone"></i> Tel: (555) 123-4567</p>
+                <p><i class="fas fa-clock"></i> Open Daily: 7AM - 8PM</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s123%20Street%2C%20New%20York%2C%20NY%2010038%2C%20USA!5e0!3m2!1sen!2s!4v1628614993851!5m2!1sen!2s"
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cozy Corner Café. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
